@@ -1,17 +1,17 @@
 {
-  "name": "pingpongtracker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "buttonService.js",
+  "name": "silverbackleague",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node logic.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "vite": "^2.9.5"
+  },
   "dependencies": {
-    "@supabase/supabase-js": "^1.35.0",
-    "express": "^4.17.3",
-    "path": "^0.12.7"
+    "@supabase/supabase-js": "^1.35.1",
+    "global": "^4.4.0"
   }
 }
